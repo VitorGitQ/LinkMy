@@ -1,4 +1,76 @@
+@font-face {
+    font-family: Outfit;
+    src: url(/asset/font/Outfit/Outfit-ExtraLight.ttf);
+}
+
+:root {
+    --background-color:#2D2D2D;
+    --gradient-nav: linear-gradient( to right, #2D2D2D, #1D1D1D );
+    --gradient-bottons:linear-gradient(to right, #ffffff -300% , #1D1D1D 100%);
+    --font-color:#ffffff;
+
+}
+
 body {
     margin: 0;
     padding: 0;
+    background: var(--background-color);
+}
+
+header {
+    width: 100vw;
+    height: 5vh;
+    border: 1px solid black;
+}
+
+
+main {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6% 0 6% 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width:400px;
+    height: 500px;
+    gap: 25px;
+
+    background: var(--gradient-nav);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav .bottons {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+    width:350px;
+    height: 60px;
+    padding-left: 15px;
+
+    background: var(--gradient-bottons);
+    color: var(--font-color);
+    font-family:Outfit;
+    font-size:smaller;
+    transition: .5s;
+}
+
+nav .bottons:hover {
+    width:370px;
+}
+
+.bottons img {
+    width:35px;
+    height: 35px;
 }
