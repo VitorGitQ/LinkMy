@@ -6,28 +6,101 @@
 :root {
     --background-color:#2D2D2D;
     --gradient-nav: linear-gradient( to right, #2D2D2D, #1D1D1D );
-    --gradient-bottons:linear-gradient(to right, #ffffff -300% , #1D1D1D 100%);
+    --gradient-botton-mode: linear-gradient(to right, #2D2D2D, #1D1D1D 100%);
+    --svg-mode:url(/asset/img/svg/sun-svgrepo-com.svg);
+    --gradient-bottons-links:linear-gradient(to right, #ffffff -300% , #1D1D1D 100%);
     --font-color:#ffffff;
 
+    --img-github:url(/asset/img/svg/github-svgrepo-com-white.svg);
+    --img-linkedin:url(/asset/img/svg/linkedin-white.svg);
+    --img-portifolio:url(/asset/img/svg/portifolio-white.svg);
+    --img-email:url(/asset/img/svg/email-white.svg);
+    --img-instagram:url(/asset/img/svg/instagram-white.svg);
+    transition: 1s;
+
 }
+
+.light {
+    --background-color:#DADADA;
+    --gradient-nav: linear-gradient( to right, #DADADA, #FFFFFF );
+    --gradient-botton-mode: linear-gradient(to right, #DADADA, #FFFFFF 100%);
+    --svg-mode:url(/asset/img/svg/moon-svgrepo-com.svg);
+    --gradient-bottons-links:linear-gradient(to left, #FFFFFF , #bcbcbc );
+    --font-color:#3a3a3a;
+
+    --img-github:url(/asset/img/svg/github-svgrepo-com.svg);
+    --img-linkedin:url(/asset/img/svg/linkedin-black.svg);
+    --img-portifolio:url(/asset/img/svg/portifolio-black.svg);
+    --img-email:url(/asset/img/svg/email-black.svg);
+    --img-instagram:url(/asset/img/svg/instagram-black.svg);
+    transition: 1s;
+}
+
+
 
 body {
     margin: 0;
     padding: 0;
     background: var(--background-color);
+    overflow-x: hidden;
+    transition: .5s;
 }
+
+body::-webkit-scrollbar {
+    width: 10px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--background-color);        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #1D1D1D;    
+    border-radius: 20px;       
+    border: 3px solid var(--background-color);  
+  }
 
 header {
+    display: flex;
     width: 100vw;
-    height: 5vh;
-    border: 1px solid black;
+    height: auto;
+    align-items: center;
+    padding: 1% 0 1% 0;
 }
 
+header botton {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    width:45px;
+    height: 30px;
+    padding-right: 4px;
+    background: var(--gradient-botton-mode);
+
+    border-radius: 0px 10px 2px 0px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+header botton:hover {
+    width:55px;
+}
+
+header botton div {
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+    background: var(--svg-mode) no-repeat;
+    transition: 1s;
+}
 
 main {
     width: 100vw;
     height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 6% 0 6% 0;
@@ -44,6 +117,7 @@ nav {
     gap: 25px;
 
     background: var(--gradient-nav);
+    transition: .5s;
 }
 
 nav a {
@@ -59,7 +133,7 @@ nav .bottons {
     height: 60px;
     padding-left: 15px;
 
-    background: var(--gradient-bottons);
+    background: var(--gradient-bottons-links);
     color: var(--font-color);
     font-family:Outfit;
     font-size:smaller;
@@ -70,7 +144,31 @@ nav .bottons:hover {
     width:370px;
 }
 
-.bottons img {
-    width:35px;
-    height: 35px;
+.bottons div {
+    width:30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#github {
+    background: var(--img-github) no-repeat;
+}
+
+#linkedin {
+    background: var(--img-linkedin) no-repeat;
+}
+
+#portifolio {
+    background: var(--img-portifolio) no-repeat;
+}
+
+#email {
+    background: var(--img-email) no-repeat;
+}
+
+#instagram {
+    background: var(--img-instagram) no-repeat;
+}
+
