@@ -111,9 +111,11 @@ nav {
     align-items: center;
     justify-content: center;
 
-    width:400px;
+    width:90%;
+    max-width: 429px;
     height: 500px;
     gap: 25px;
+    margin: 20px 0px 20px 0;
 
     background: var(--gradient-nav);
     transition: .5s;
@@ -128,7 +130,8 @@ nav .bottons {
     align-items: center;
 
     gap: 10px;
-    width:350px;
+    width:80vw;
+    max-width: 355px;
     height: 60px;
     padding-left: 15px;
 
@@ -140,7 +143,8 @@ nav .bottons {
 }
 
 nav .bottons:hover {
-    width:370px;
+    width:95vw;
+    max-width: 390px;
 }
 
 .bottons div {
