@@ -118,6 +118,7 @@ nav {
     margin: 20px 0px 20px 0;
 
     background: var(--gradient-nav);
+    border-radius: 0 10px 10px 0;
     transition: .5s;
 }
 
@@ -137,14 +138,15 @@ nav .bottons {
 
     background: var(--gradient-bottons-links);
     color: var(--font-color);
+    border-radius: 5px 0 0 5px;
     font-family:Outfit;
     font-size:smaller;
     transition: .5s;
 }
 
 nav .bottons:hover {
-    width:95vw;
-    max-width: 390px;
+    width:84vw;
+    max-width: 370px;
 }
 
 .bottons div {
