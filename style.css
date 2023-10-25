@@ -98,12 +98,11 @@ header botton div {
 
 main {
     width: 100vw;
-    height: auto;
+    height: 650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 6% 0 6% 0;
 }
 
 nav {
@@ -152,6 +151,7 @@ nav .bottons:hover {
     align-items: center;
 }
 
+
 #github {
     background: var(--img-github) no-repeat;
 }
@@ -171,4 +171,5 @@ nav .bottons:hover {
 #instagram {
     background: var(--img-instagram) no-repeat;
 }
+
 
