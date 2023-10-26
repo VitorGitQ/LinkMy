@@ -1,21 +1,21 @@
 @font-face {
     font-family: Outfit;
-    src: url(/asset/font/Outfit/Outfit-ExtraLight.ttf);
+    src: url(asset/font/Outfit/Outfit-ExtraLight.ttf);
 }
 
 :root {
     --background-color:#2D2D2D;
     --gradient-nav: linear-gradient( to right, #2D2D2D, #1D1D1D );
     --gradient-botton-mode: linear-gradient(to right, #2D2D2D, #1D1D1D 100%);
-    --svg-mode:url(/asset/img/svg/sun-svgrepo-com.svg);
+    --svg-mode:url(asset/img/svg/sun-svgrepo-com.svg);
     --gradient-bottons-links:linear-gradient(to right, #ffffff -300% , #1D1D1D 100%);
     --font-color:#ffffff;
 
-    --img-github:url(/asset/img/svg/github-svgrepo-com-white.svg);
-    --img-linkedin:url(/asset/img/svg/linkedin-white.svg);
-    --img-portifolio:url(/asset/img/svg/portifolio-white.svg);
-    --img-email:url(/asset/img/svg/email-white.svg);
-    --img-instagram:url(/asset/img/svg/instagram-white.svg);
+    --img-github:url(asset/img/svg/github-svgrepo-com-white.svg);
+    --img-linkedin:url(asset/img/svg/linkedin-white.svg);
+    --img-portifolio:url(asset/img/svg/portifolio-white.svg);
+    --img-email:url(asset/img/svg/email-white.svg);
+    --img-instagram:url(asset/img/svg/instagram-white.svg);
     transition: 1s;
 
 }
@@ -24,15 +24,15 @@
     --background-color:#DADADA;
     --gradient-nav: linear-gradient( to right, #DADADA, #FFFFFF );
     --gradient-botton-mode: linear-gradient(to right, #DADADA, #FFFFFF 100%);
-    --svg-mode:url(/asset/img/svg/moon-svgrepo-com.svg);
+    --svg-mode:url(asset/img/svg/moon-svgrepo-com.svg);
     --gradient-bottons-links:linear-gradient(to left, #FFFFFF , #bcbcbc );
     --font-color:#3a3a3a;
 
-    --img-github:url(/asset/img/svg/github-svgrepo-com.svg);
-    --img-linkedin:url(/asset/img/svg/linkedin-black.svg);
-    --img-portifolio:url(/asset/img/svg/portifolio-black.svg);
-    --img-email:url(/asset/img/svg/email-black.svg);
-    --img-instagram:url(/asset/img/svg/instagram-black.svg);
+    --img-github:url(asset/img/svg/github-svgrepo-com.svg);
+    --img-linkedin:url(asset/img/svg/linkedin-black.svg);
+    --img-portifolio:url(asset/img/svg/portifolio-black.svg);
+    --img-email:url(asset/img/svg/email-black.svg);
+    --img-instagram:url(asset/img/svg/instagram-black.svg);
     transition: 1s;
 }
 
