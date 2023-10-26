@@ -7,7 +7,7 @@
   <a href="###-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="##-Layout">Layout</a>
 
-<img src=".git/Layout.png">  
+<img src="asset/img/png/capa-projeto.png">  
 </p>
 
 ## PROJETO
