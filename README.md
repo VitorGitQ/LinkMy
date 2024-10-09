@@ -14,7 +14,7 @@
 
 ## PROJETO
 O objetivo desse projeto é desenvolver um Link Tree, no qual as pessoas que acessarem essa página poderam ter o acesso facilitado a todos
-os meu meios de contato, redes sociais e portifolio [ACESSE AQUI](https://htppsvitor.github.io/LinkMy/).
+os meu meios de contato, redes sociais e portifolio [ACESSE AQUI](https://vitorgitq.github.io/LinkMy/).
 
 ## LAYOUT
 
